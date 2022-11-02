@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url(../fonts/SFPRODISPLAYREGULAR.OTF); }
+* {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+body {
+  background: #E5E5E5;
+  font-family: "SF Pro Display", sans-serif; }
+
+.navbar {
+  background: #fff !important;
+  color: #000 !important;
+  box-shadow: none !important; }
+  .navbar .divider {
+    border-right: 1px solid #BCC0D0;
+    margin: 0 30px;
+    height: 30px; }
+
+.content {
+  margin: 50px 0; }
+  .content .heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .content .heading .title {
+      display: flex;
+      gap: 30px;
+      align-items: flex-end; }
+      .content .heading .title p {
+        color: #8189A2;
+        font-size: 12px; }
+    .content .heading .preview-button {
+      display: flex;
+      gap: 10px;
+      border: 1px solid #6F32D2;
+      color: #6F32D2;
+      border-radius: 8px;
+      text-transform: capitalize; }
+  .content .curiculum .heading {
+    margin: 30px 0;
+    border-bottom: 2px solid #DFE5EE; }
+    .content .curiculum .heading h4 {
+      color: #6F32D2;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #6F32D2; }
+  .content .curiculum .session {
+    margin: 50px 0; }
+    .content .curiculum .session .add {
+      margin: 20px 0;
+      display: flex;
+      justify-content: flex-end; }
+      .content .curiculum .session .add .action-button {
+        display: flex;
+        gap: 10px;
+        background: #7800EF;
+        border-radius: 8px;
+        color: #fff;
+        text-transform: capitalize; }
+    .content .curiculum .session .nama-session {
+      margin: 20px 0; }
+      .content .curiculum .session .nama-session .title {
+        display: flex;
+        justify-content: space-between; }
+        .content .curiculum .session .nama-session .title svg {
+          color: #999999;
+          margin: 0 10px; }
+        .content .curiculum .session .nama-session .title .name {
+          display: flex;
+          align-items: center;
+          gap: 10px; }
+      .content .curiculum .session .nama-session .list-lesson {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 20px 0; }
+        .content .curiculum .session .nama-session .list-lesson .lesson {
+          display: flex;
+          margin: 10px 0;
+          justify-content: space-between; }
+          .content .curiculum .session .nama-session .list-lesson .lesson .title {
+            display: flex;
+            align-items: center;
+            gap: 10px; }
+            .content .curiculum .session .nama-session .list-lesson .lesson .title p {
+              color: #6F32D2; }
+          .content .curiculum .session .nama-session .list-lesson .lesson .time {
+            display: flex;
+            gap: 10px;
+            align-items: center; }
+            .content .curiculum .session .nama-session .list-lesson .lesson .time .divider {
+              color: #BCC0D0;
+              font-size: 12px; }
+      .content .curiculum .session .nama-session .more {
+        background: #F6F8FC;
+        border-radius: 8px; }
+      .content .curiculum .session .nama-session .add-lesson button {
+        text-transform: capitalize;
+        color: #000;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 24px; }
+      .content .curiculum .session .nama-session .add-lesson .icon-plus {
+        background: #7800EF;
+        border-radius: 8px;
+        color: #fff;
+        width: 33px;
+        height: 31.57px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 10px; }
+  .content .curiculum .nama-schedule,
+  .content .curiculum .nama-session {
+    padding: 24px;
+    background: #fff;
+    border: 1px solid #DFE5EE;
+    box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 8px; }
+
+/*# sourceMappingURL=main.css.map */
